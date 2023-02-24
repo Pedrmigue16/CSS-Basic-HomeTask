@@ -1,0 +1,155 @@
+/* general config */
+body{ 
+    width: 1200px;
+    border: 0;
+    padding: 0;
+    margin: auto;
+    color: white;
+    font: 16px "Source Sans Pro", serif;
+    text-align: center;
+}
+
+h1,h2,h3{
+    margin: 0;
+}
+
+i{
+    font-style: normal
+}
+
+a:link,a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Sections*/
+
+/* hero */
+.Welcome img{
+    margin-bottom: 13px;
+}
+
+h1,h2{
+    font: bold 48px/64px "Oswald", serif;
+}
+
+h3{
+    font-weight: normal;
+    font-size: 24px;
+    line-height:32px;
+}
+
+.Welcome{
+    width: 426px;
+    height: 292px;
+    border: 0;
+    padding: 256px 387px;
+    margin: 0;
+    background: url("../assets/Welcome_Background_1920x1200.jpg") no-repeat; 
+}
+
+.Welcome h3{
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 42px; 
+}
+
+/* main */
+main{
+    width: 984px;
+    height: 515px;
+    border: 0;
+    padding: 87px 108px 98px;
+    margin: 0;
+    color: black;
+    background:#EEEEEE;
+}
+
+main h2{
+    color: #464547;
+}
+
+main h3{
+    color: #666666;
+    margin: 40px 0 48px;
+}
+
+
+/* learn more */
+.background{
+    background: url("../assets/event.jpg") no-repeat;
+}
+
+.Learn_more{
+    width: 480px;
+    height: 492px;
+    border: 0;
+    padding: 84px 360px 90px;
+    margin: 0;
+    background: rgba(140, 79, 42, 0.3);
+}
+
+
+/* footer */
+footer{
+    text-align: left;
+    padding: 19px 140px 38px;
+    line-height: 19px;
+    height: 113px;
+    background: url("../assets/Rectangle_footer.jpg") no-repeat;
+}
+
+footer .logo{
+    margin-bottom: 12px;
+}
+
+footer img{
+    vertical-align: text-bottom;
+}
+
+footer .corp_name{
+    margin-left: 16px;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+address,small{ 
+    color: rgba(255, 255, 255, 0.4);
+}
+
+a.corp_mail:link{
+    text-decoration: none;
+    color: inherit;
+}
+a.corp_mail:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* buttons config */
+main button{
+    width: 115px;
+    height: 36px;
+    margin-top: 21px;
+    padding: 0;
+    border: 0;
+    background-image: url("../assets/read_more_button.svg");
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    font-family: inherit;
+}
+
+.Learn_more button{
+    width: 150px;
+    height: 150px;
+    margin: 53px 0 70px;
+    border: 0;
+    border-radius: 50%;
+    font-size: 44px;
+    background: url("../assets/playbutton.svg") no-repeat center, url("../assets/play_button_ellipse.svg");
+    background-size: 55px, auto;
+}
+
